@@ -26,7 +26,7 @@ class Footer extends Component {
 
             <div className="social">
               <ul>
-                <Fade bottom><li><a href="https://www.instagram.com/kevinshirleyio" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a></li></Fade>
+                <Fade bottom><li><a href="https://github.com/kevinshirley/tictactoe" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a></li></Fade>
                 <Fade bottom><li><a href="mailto:info@kevinshirley.com"><i className="far fa-envelope"></i></a></li></Fade>
               </ul>
             </div>
