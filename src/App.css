@@ -28,7 +28,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   width: 320px; }
 
 .input-wrapper .inner-wrap label {
@@ -37,9 +37,6 @@ body {
 
 .input-wrapper .inner-wrap label i {
   padding-right: 10px; }
-
-.input-wrapper:first-child {
-  margin-top: 30px; }
 
 .input-wrapper .inner-wrap .input-container input {
   border-top: none;
@@ -160,7 +157,7 @@ body {
 /* game */
 .game {
   width: 100%;
-  height: 100vh; }
+  height: auto; }
   .game .overlay .game-title {
     width: 100%;
     display: flex;
@@ -184,7 +181,8 @@ body {
     margin-top: 5px; }
     .game .overlay .game-board .overlay .btns {
       display: flex;
-      justify-content: space-around; }
+      justify-content: space-around;
+      margin-bottom: 20px; }
     .game .overlay .game-board .overlay .board .board-table .row {
       display: flex;
       justify-content: space-around; }
@@ -409,6 +407,21 @@ body {
     width: 100%; }
     .game .overlay .game-title .overlay .players {
       width: 100%; } }
+
+@media screen and (max-width: 495px) {
+  /* game */
+  .game .overlay .game-board .overlay {
+    width: 95%; }
+    .game .overlay .game-board .overlay .board .board-table .row .box {
+      height: 80px;
+      width: 100%;
+      font-size: 4em; } }
+
+@media screen and (max-width: 380px) {
+  /* game */
+  .game .overlay .game-board .overlay .board .board-table .row .box {
+    height: 60px;
+    width: 100%; } }
 
 @media screen and (max-width: 372px) {
   .input-wrapper .inner-wrap {
