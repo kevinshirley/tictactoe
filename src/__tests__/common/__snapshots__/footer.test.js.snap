@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should render correctly in "debug" mode 1`] = `
+<footer
+  className="footer"
+>
+  <div
+    className="inner-footer"
+  >
+    <div
+      className="contact-social"
+    >
+      <div
+        className="social"
+      >
+        <ul>
+          <Fade
+            bottom={true}
+          >
+            <li>
+              <a
+                href="https://github.com/kevinshirley/tictactoe"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <i
+                  className="fab fa-github"
+                />
+              </a>
+            </li>
+          </Fade>
+          <Fade
+            bottom={true}
+          >
+            <li>
+              <a
+                href="mailto:info@kevinshirley.com"
+              >
+                <i
+                  className="far fa-envelope"
+                />
+              </a>
+            </li>
+          </Fade>
+        </ul>
+      </div>
+    </div>
+    <div
+      className="copyrightandall"
+    >
+      <div
+        className="copyright"
+      >
+        <Fade
+          bottom={true}
+        >
+          <small>
+            © 
+            2019
+             
+            <a
+              href="http://kevinshirley.com"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              KevinShirley.com
+            </a>
+          </small>
+        </Fade>
+      </div>
+      <div
+        className="logo"
+      >
+        <Fade
+          bottom={true}
+        >
+          <Link
+            replace={false}
+            to="/"
+          >
+            <img
+              alt="Tic Tac Toe Logo"
+              src=""
+            />
+          </Link>
+        </Fade>
+      </div>
+      <div
+        className="poweredby"
+      >
+        <Fade
+          bottom={true}
+        >
+          <small>
+            Powered By
+            <a
+              href="http://kevinshirley.com"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img
+                alt="Kevin Shirley"
+                src=""
+              />
+            </a>
+          </small>
+        </Fade>
+      </div>
+    </div>
+    <div
+      className="copyrightandall-mobile"
+    >
+      <div
+        className="poweredby"
+      >
+        <Fade
+          bottom={true}
+        >
+          <small>
+            Powered By
+            <a
+              href="http://kevinshirley.com"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img
+                alt="Kevin Shirley"
+                src=""
+              />
+            </a>
+          </small>
+        </Fade>
+      </div>
+      <div
+        className="copyright"
+      >
+        <Fade
+          bottom={true}
+        >
+          <small>
+            © 
+            2019
+             
+            <a
+              href="http://kevinshirley.com"
+            >
+              KevinShirley.com
+            </a>
+          </small>
+        </Fade>
+      </div>
+      <div
+        className="logo"
+      >
+        <Fade
+          bottom={true}
+        >
+          <Link
+            replace={false}
+            to="/"
+          >
+            <img
+              alt="tictactoe Logo"
+              src=""
+            />
+          </Link>
+        </Fade>
+      </div>
+    </div>
+  </div>
+</footer>
+`;

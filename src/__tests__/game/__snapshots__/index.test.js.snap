@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Game should render correctly in "debug" mode 1`] = `
+<section
+  className="game"
+>
+  <div
+    className="overlay"
+  >
+    <Title />
+    <Connect(withRouter(Board))
+      closeModalToRestart={[Function]}
+      onGameWinner={[Function]}
+      restartGame={false}
+      stillRestarting={[Function]}
+      tieGame={[Function]}
+    />
+    <withRouter(GameWinner)
+      closedNowReset={[Function]}
+      gameWinnerOpenModal={false}
+      isTie={false}
+      onClose={false}
+      onRestart={[Function]}
+      whoDidWin=""
+    />
+  </div>
+</section>
+`;

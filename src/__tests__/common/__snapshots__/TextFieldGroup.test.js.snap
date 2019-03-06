@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextFieldGroup should render correctly in "debug" mode 1`] = `
+<div
+  className="input-wrapper form-group"
+>
+  <div
+    className="inner-wrap"
+  >
+    <label>
+      <i
+        className="material-icons"
+      />
+       
+    </label>
+    <div
+      className="input-container"
+    >
+      <input
+        className="form-control"
+        type="text"
+      />
+    </div>
+  </div>
+</div>
+`;

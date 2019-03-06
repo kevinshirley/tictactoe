@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should render correctly in "debug" mode 1`] = `
+<section
+  className="home"
+>
+  <div
+    className="overlay"
+  >
+    <Title />
+    <MainNav
+      onNewGame={[Function]}
+    />
+    <Connect(withRouter(NewGameModal))
+      isNewGameModalClose={false}
+      isNewGameModalOpen={false}
+      onReset={[Function]}
+      quitModal={[Function]}
+    />
+  </div>
+</section>
+`;
