@@ -1,8 +1,10 @@
 TIC TAC TOE GAME
+
 Requirements
 For development, you will only need Node.js installed on your environement.
 
 Node
+
 Node is really easy to install & now include NPM. You should be able to run the following command after the installation procedure below.
 
 $ node --version
@@ -28,19 +30,23 @@ Node installation on Windows
 Just go on official Node.js website & grab the installer. Also, be sure to have git available in your PATH, npm might need it.
 
 Install
+
 $ git clone https://github.com/kevinshirley/tictactoe.git
 $ cd tictactoe
 $ npm install
 $ npm start
 
 Start & watch
+
 $ npm run start
 
 Testing
+
 $ npm run test
 Using Jest and Enzyme
 
 Languages & tools
+
 HTML
 No templating.
 
