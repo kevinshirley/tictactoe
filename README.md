@@ -40,6 +40,7 @@ Start & watch
 $ npm run start
 
 Testing
+
 $ npm run test
 Using Jest and Enzyme
 
